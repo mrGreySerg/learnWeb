@@ -1,0 +1,174 @@
+body {
+  font-family: 'Jost', sans-serif;
+  font-optical-sizing: auto;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28.8px;
+  width: 1920px;
+  background-color: #ffffff;
+}
+
+li,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+p,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.main-header {
+  background-color: #0b0524;
+}
+
+.main-header a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.wrapper-header {
+  padding: 30px 100px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.site-navigation-list {
+  display: flex;
+  width: 354px;
+  gap: 40px;
+}
+
+.site-navigation-item a {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.hero {
+  background-color: #0b0524;
+  color: #fff;
+  display: flex;
+  height: 990px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 160%;
+}
+
+.hero p {
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 50px;
+}
+
+.hero a {
+  color: #fff;
+  text-decoration: none;
+  padding: 25px 54px;
+  display: block;
+  font-size: 18px;
+}
+
+.entry-course {
+  width: 260px;
+  background-color: #d52027;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.about {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.about-list {
+  display: flex;
+  gap: 40px;
+}
+
+.about-item {
+  width: 260px;
+}
+
+.course-results {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.course-results-list {
+  display: flex;
+}
+
+.trainers {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.trainers-list {
+  display: flex;
+  gap: 40px;
+}
+
+.trainers-item {
+  width: 360px;
+}
+
+.select-price {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.select-price-list {
+  display: flex;
+  gap: 40px;
+}
+
+.select-price-item {
+  width: 360px;
+}
+
+.special-offer {
+  width: 1040px;
+  margin: 0 auto;
+  display: flex;
+  gap: 64px;
+}
+
+.left-part-offer {
+  width: 476px;
+}
+
+.offer-form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.main-footer {
+  background-color: #141024;
+  color: #fff;
+}
+
+.wrapper-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 1720px;
+  margin: 0 auto;
+}
+
+.wrapper-footer a {
+  color: #fff;
+  text-decoration: none;
+}
