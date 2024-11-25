@@ -59,9 +59,18 @@ h3 {
   color: #fff;
   display: flex;
   height: 990px;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly;*/
   align-items: center;
   margin-bottom: 120px;
+  background-image: url('../img/girl-student.png'), url(../img/Ellipse\ 29.svg);
+  background-repeat: no-repeat;
+  background-position-x: 1056px, 924px;
+  background-position-y: bottom, 170px;
+}
+
+/* for background-image */
+.wrap-hero {
+  margin-left: 380px;
 }
 
 .hero h1 {
@@ -83,6 +92,20 @@ h3 {
   display: block;
   font-size: 18px;
 }
+/* for img */
+/* .hero img:first-of-type {
+  position: relative;
+  left: 0;
+  z-index: 1;
+  top: 7%;
+}
+
+.hero img:last-of-type {
+  position: relative;
+  z-index: 2;
+  bottom: -32px;
+  left: -35%;
+} */
 
 .entry-course {
   width: 260px;
