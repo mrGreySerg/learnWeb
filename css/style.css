@@ -17,7 +17,9 @@ ul {
 }
 
 p,
-h1 {
+h1,
+h2,
+h3 {
   margin: 0;
   padding: 0;
 }
@@ -59,6 +61,7 @@ h1 {
   height: 990px;
   justify-content: space-evenly;
   align-items: center;
+  margin-bottom: 120px;
 }
 
 .hero h1 {
@@ -91,6 +94,19 @@ h1 {
 .about {
   width: 1160px;
   margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+.about > p {
+  margin-bottom: 60px;
+  font-size: 30px;
+  line-height: 160%;
+}
+
+.about-item > p:first-of-type {
+  font-size: 70px;
+  color: #d52027;
+  line-height: 160%;
 }
 
 .about-list {
@@ -103,31 +119,102 @@ h1 {
 }
 
 .course-results {
+  background-color: #f9f9f9;
+  margin-bottom: 120px;
+}
+
+.wrapper-course-results {
   width: 1160px;
   margin: 0 auto;
+  padding: 100px 0;
+}
+
+.wrapper-course-results > h2 {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 80px;
+  margin-bottom: 60px;
 }
 
 .course-results-list {
   display: flex;
+  gap: 40px;
+}
+
+.course-results-item {
+  width: 360px;
+}
+
+.course-results-item > h3 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 38.4px;
 }
 
 .trainers {
   width: 1160px;
   margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+.trainers > h2 {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 80px;
+  margin-bottom: 60px;
 }
 
 .trainers-list {
   display: flex;
   gap: 40px;
+  margin-bottom: 60px;
+  overflow: hidden;
 }
 
 .trainers-item {
   width: 360px;
 }
 
+.trainers-item img + p {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 38.4px;
+  margin-bottom: 10px;
+}
+
+.trainers-item p:nth-of-type(2) {
+  margin-bottom: 20px;
+}
+
+.trainers-item p a {
+  color: #d52027;
+  text-decoration: none;
+}
+
+.wrapper-arrows {
+  text-align: center;
+}
+
+.wrapper-arrows img:first-child {
+  margin-right: 10px;
+}
+
+.wrapper-arrows img:nth-child(2) {
+  transform: rotate(180deg);
+}
+
 .select-price {
   width: 1160px;
   margin: 0 auto;
+  margin-bottom: 140px;
+}
+
+.select-price h2 {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 80px;
+  margin-bottom: 80px;
 }
 
 .select-price-list {
@@ -137,23 +224,111 @@ h1 {
 
 .select-price-item {
   width: 360px;
+  border: 1px solid rgba(20, 16, 36, 0.2);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.select-price-item:hover {
+  background-color: #141024;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.select-price-item:hover h3 {
+  transform: translateY(-20px);
+  transition: all 0.3s ease;
+}
+
+.select-price-item:hover p:last-child {
+  transform: translateY(20px);
+  margin-bottom: 60px;
+  transition: all 0.3s ease;
+}
+
+.select-price-item h3 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 48px;
+  margin-bottom: 63px;
+  padding-top: 40px;
+}
+
+.select-price-item h3::before {
+  content: '\2014';
+  margin-right: 5px;
+}
+
+.select-price-item h3::after {
+  content: '\2014';
+  margin-left: 5px;
+}
+
+.select-price-item h3 + p strong {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 80px;
+}
+
+.select-price-item h3 + p {
+  margin-bottom: 20px;
+}
+
+.select-price-item p:nth-of-type(2) {
+  height: 58px;
+  margin-bottom: 52px;
+}
+
+.select-price-item p:last-of-type {
+  width: 280px;
+  background-color: #d52027;
+  margin: 0 auto;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+.select-price-item p a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding: 25px 78px;
 }
 
 .special-offer {
-  width: 1040px;
-  margin: 0 auto;
+  background-color: #d52027;
+}
+
+.wrapper-parts-offer {
   display: flex;
   gap: 64px;
+  width: 1040px;
+  margin: 0 auto;
+  color: #fff;
 }
 
 .left-part-offer {
   width: 476px;
+  padding-top: 106px;
+}
+
+.left-part-offer h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 46.8px;
+  margin-bottom: 20px;
+}
+
+.left-part-offer p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
 }
 
 .offer-form {
   display: flex;
   flex-direction: column;
   width: 500px;
+  padding: 87px 0;
 }
 
 .main-footer {
@@ -168,7 +343,31 @@ h1 {
   margin: 0 auto;
 }
 
+.left-part-footer {
+  padding: 40px 0;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 5px;
+}
+
+.left-part-footer p:last-child {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+}
+
 .wrapper-footer a {
   color: #fff;
   text-decoration: none;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+.wrapper-footer > p {
+  padding-top: 40px;
 }

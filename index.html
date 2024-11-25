@@ -75,30 +75,32 @@
         </ul>
       </section>
       <section class="course-results">
-        <h2>Что вы получите после курса</h2>
-        <ul class="course-results-list">
-          <li class="course-results-item">
-            <h3>Удостоверение</h3>
-            <p>
-              Дающее право преподавать робототехнику для детей 6-12 лет в
-              образовательных учреждениях
-            </p>
-          </li>
-          <li class="course-results-item">
-            <h3>Знания</h3>
-            <p>
-              По основам разработки учебно-методических комплексов по
-              робототехнике и программированию
-            </p>
-          </li>
-          <li class="course-results-item">
-            <h3>Удостоверение <sup>i</sup></h3>
-            <p>
-              Возможность пройти практику по преподаванию робототехники на базе
-              R:ED LAB (в оффлайн или онлайн формате)
-            </p>
-          </li>
-        </ul>
+        <div class="wrapper-course-results">
+          <h2>Что вы получите после курса</h2>
+          <ul class="course-results-list">
+            <li class="course-results-item">
+              <h3>Удостоверение</h3>
+              <p>
+                Дающее право преподавать робототехнику для детей 6-12 лет в
+                образовательных учреждениях
+              </p>
+            </li>
+            <li class="course-results-item">
+              <h3>Знания</h3>
+              <p>
+                По основам разработки учебно-методических комплексов по
+                робототехнике и программированию
+              </p>
+            </li>
+            <li class="course-results-item">
+              <h3>Удостоверение <sup>i</sup></h3>
+              <p>
+                Возможность пройти практику по преподаванию робототехники на
+                базе R:ED LAB (в оффлайн или онлайн формате)
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="trainers">
         <h2>Профессиональные тренеры</h2>
@@ -110,7 +112,7 @@
               height="500"
               alt="Фотография преподавателя Ирина Лайм"
             />
-            <p><strong>Ирина Лайм</strong></p>
+            <p>Ирина Лайм</p>
             <p>преподаватель по робототехнике</p>
             <p><a href="">Подробнее</a></p>
           </li>
@@ -121,7 +123,7 @@
               height="500"
               alt="Фотография преподавателя Марина Орлова"
             />
-            <p><strong>Марина Орлова</strong></p>
+            <p>Марина Орлова</p>
             <p>преподаватель по робототехнике</p>
             <p><a href="">Подробнее</a></p>
           </li>
@@ -146,10 +148,30 @@
             <p>Константин Назаров</p>
             <p>преподаватель по робототехнике</p>
             <p><a href="">Подробнее</a></p>
-            <img src="" alt="стрелка налево, предыдущий преподаватель" />
-            <img src="" alt="стрелка направо, предыдущий преподаватель" />
+          </li>
+
+          <li class="trainers-item">
+            <img
+              src="img/teacher-Liza-Vesennyia.jpg"
+              width="360"
+              height="500"
+              alt="Фотография преподавателя Лиза Весенняя"
+            />
+            <p>Лиза Весенняя</p>
+            <p>преподаватель по робототехнике</p>
+            <p><a href="">Подробнее</a></p>
           </li>
         </ul>
+        <div class="wrapper-arrows">
+          <img
+            src="img/Arrow - Right Circle.svg"
+            alt="стрелка налево, предыдущий преподаватель"
+          />
+          <img
+            src="img/Arrow - Right Circle.svg"
+            alt="стрелка направо, предыдущий преподаватель"
+          />
+        </div>
       </section>
       <section class="select-price">
         <h2>Выберите нужный пакет</h2>
@@ -178,34 +200,42 @@
         </ul>
       </section>
       <section class="special-offer">
-        <div class="left-part-offer">
-          <h2>
-            Запишитесь на курс<br />
-            co скидкой 10%
-          </h2>
-          <p>Акция действительна до 10 марта 2022 года</p>
+        <div class="wrapper-parts-offer">
+          <div class="left-part-offer">
+            <h2>
+              Запишитесь на курс<br />
+              co скидкой 10%
+            </h2>
+            <p>Акция действительна до 10 марта 2022 года</p>
+          </div>
+          <form class="offer-form" action="">
+            <label for="name"></label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Имя"
+              required
+            />
+            <label for="phone"></label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Телефон"
+              required
+            />
+            <label for="email"></label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="E-mail"
+              required
+            />
+            <button type="submit">Оформить заявку</button>
+          </form>
         </div>
-        <form class="offer-form" action="">
-          <label for="name"></label>
-          <input type="text" id="name" name="name" placeholder="Имя" required />
-          <label for="phone"></label>
-          <input
-            type="tel"
-            id="phone"
-            name="phone"
-            placeholder="Телефон"
-            required
-          />
-          <label for="email"></label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="E-mail"
-            required
-          />
-          <button type="submit">Оформить заявку</button>
-        </form>
       </section>
     </main>
     <footer class="main-footer">
