@@ -218,11 +218,14 @@ h3 {
 }
 
 .select-price-list {
+  height: 500px;
   display: flex;
   gap: 40px;
+  align-items: center;
 }
 
 .select-price-item {
+  height: 460px;
   width: 360px;
   border: 1px solid rgba(20, 16, 36, 0.2);
   border-radius: 20px;
@@ -232,17 +235,17 @@ h3 {
 .select-price-item:hover {
   background-color: #141024;
   color: #fff;
+  height: 500px;
   transition: all 0.3s ease;
 }
 
 .select-price-item:hover h3 {
-  transform: translateY(-20px);
+  margin-bottom: 80px;
   transition: all 0.3s ease;
 }
 
 .select-price-item:hover p:last-child {
   transform: translateY(20px);
-  margin-bottom: 60px;
   transition: all 0.3s ease;
 }
 
@@ -276,7 +279,7 @@ h3 {
 
 .select-price-item p:nth-of-type(2) {
   height: 58px;
-  margin-bottom: 52px;
+  margin-bottom: 32px;
 }
 
 .select-price-item p:last-of-type {
@@ -296,6 +299,9 @@ h3 {
 
 .special-offer {
   background-color: #d52027;
+  background-image: url('../img/percent-sign.svg');
+  background-repeat: repeat-x;
+  background-position: bottom;
 }
 
 .wrapper-parts-offer {
@@ -327,8 +333,22 @@ h3 {
 .offer-form {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  gap: 5px;
   width: 500px;
   padding: 87px 0;
+}
+
+.offer-form input {
+  padding: 19px 20px;
+  border-radius: 5px;
+}
+
+.offer-form button {
+  padding: 19px 0;
+  background-color: #141024;
+  border-radius: 5px;
+  color: #fff;
 }
 
 .main-footer {
