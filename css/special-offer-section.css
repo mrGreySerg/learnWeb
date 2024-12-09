@@ -1,0 +1,53 @@
+.special-offer {
+  background-color: #d52027;
+  background-image: url('../img/percent-sign.svg');
+  background-repeat: repeat-x;
+  background-position: bottom;
+}
+
+.special-offer__wrapper {
+  display: flex;
+  gap: 64px;
+  width: 1040px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.special-offer__left-part {
+  width: 476px;
+  padding-top: 106px;
+}
+
+.special-offer__title {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 46.8px;
+  margin-bottom: 20px;
+}
+
+.special-offer__description {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.special-offer__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5px;
+  width: 500px;
+  padding: 87px 0;
+}
+
+.special-offer__input {
+  padding: 19px 20px;
+  border-radius: 5px;
+}
+
+.special-offer__button {
+  padding: 19px 0;
+  background-color: #141024;
+  border-radius: 5px;
+  color: #fff;
+}

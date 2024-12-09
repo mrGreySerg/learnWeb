@@ -1,0 +1,25 @@
+body {
+  font-family: 'Jost', sans-serif;
+  font-optical-sizing: auto;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28.8px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+li,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}

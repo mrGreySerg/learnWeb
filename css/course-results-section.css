@@ -1,0 +1,33 @@
+.course-results {
+  background-color: #f9f9f9;
+  margin-bottom: 120px;
+}
+
+.course-results__wrapper {
+  width: 1160px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.course-results__title {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 80px;
+  margin-bottom: 60px;
+}
+
+.course-results__list {
+  display: flex;
+  gap: 40px;
+}
+
+.course-results__item {
+  width: 360px;
+}
+
+.course-results__item-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 38.4px;
+}

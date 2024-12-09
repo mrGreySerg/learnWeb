@@ -13,89 +13,109 @@
     <!-- Подключаю стили -->
     <!-- <link rel="stylesheet" href="css/reset.css" /> -->
     <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/hero-section.css" />
+    <link rel="stylesheet" href="css/about-section.css" />
+    <link rel="stylesheet" href="css/course-results-section.css" />
+    <link rel="stylesheet" href="css/trainers-section.css" />
+    <link rel="stylesheet" href="css/select-price-section.css" />
+    <link rel="stylesheet" href="css/special-offer-section.css" />
+    <link rel="stylesheet" href="css/footer.css" />
     <title>ROBO.SCHOOL</title>
   </head>
   <body>
-    <header class="main-header">
-      <div class="wrapper-header">
-        <a href="#">ROBO.SCHOOL</a>
-        <nav class="site-navigation">
-          <ul class="site-navigation-list">
-            <li class="site-navigation-item">
-              <a href="#">О школе</a>
+    <header class="header">
+      <div class="header__wrapper">
+        <a class="header__logo" href="#">ROBO.SCHOOL</a>
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#">О школе</a>
             </li>
-            <li class="site-navigation-item">
-              <a href="#">Тренеры</a>
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#">Тренеры</a>
             </li>
-            <li class="site-navigation-item">
-              <a href="#">Стоимость</a>
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#">Стоимость</a>
             </li>
           </ul>
         </nav>
-        <a href="tel:+78000001122">+7 800 000 11 22</a>
+        <a class="header__phone" href="tel:+78000001122">+7 800 000 11 22</a>
       </div>
     </header>
     <main>
       <section class="hero">
-        <div class="wrap-hero">
-          <h1 class="logo">ROBO SCHOOL</h1>
-          <p>
-            Курсы повышения квалификации по робототехнике<br />
-            для педагогов начальной школы
-          </p>
-          <p class="entry-course"><a href="#">Записаться на курс</a></p>
+        <div class="hero__wrapper">
+          <div class="hero__text-content">
+            <h1 class="hero__title">ROBO SCHOOL</h1>
+            <p class="hero__description">
+              Курсы повышения квалификации по робототехнике<br />
+              для педагогов начальной школы
+            </p>
+            <p class="hero__entry">
+              <a class="hero__entry-link" href="#">Записаться на курс</a>
+            </p>
+          </div>
         </div>
         <!-- <img src="img/Ellipse 29.svg" alt="Круг" />
         <img src="img/girl-student.png" alt="Педагог начальной школы" /> -->
       </section>
       <section class="about">
-        <p>
-          <strong>Robo School</strong> – учреждение для формирования
-          кадрового<br />
+        <p class="about__description">
+          <span class="about__title">Robo School</span> – учреждение для
+          формирования кадрового<br />
           педагогического резерва в сфере робототехники<br />
           и программирования
         </p>
-        <ul class="about-list">
-          <li class="about-item">
-            <p><strong>10</strong></p>
-            <p>УМК по различным направлениям по робототехнике</p>
+        <ul class="about__list">
+          <li class="about__item">
+            <p class="about__number">10</p>
+            <p class="about__text">
+              УМК по различным направлениям по робототехнике
+            </p>
           </li>
-          <li class="about-item">
-            <p><strong>20</strong></p>
-            <p>Школ, в которых запущена робототехника</p>
+          <li class="about__item">
+            <p class="about__number">20</p>
+            <p class="about__text">Школ, в которых запущена робототехника</p>
           </li>
-          <li class="about-item">
-            <p><strong>100</strong></p>
-            <p>Педагогов прошедших курсы повышения квалификации</p>
+          <li class="about__item">
+            <p class="about__number">100</p>
+            <p class="about__text">
+              Педагогов прошедших курсы повышения квалификации
+            </p>
           </li>
-          <li class="about-item">
-            <p><strong>10 000</strong></p>
-            <p>Обученных детей на базе собственных центров</p>
+          <li class="about__item">
+            <p class="about__number">10 000</p>
+            <p class="about__text">
+              Обученных детей на базе собственных центров
+            </p>
           </li>
         </ul>
       </section>
       <section class="course-results">
-        <div class="wrapper-course-results">
-          <h2>Что вы получите после курса</h2>
-          <ul class="course-results-list">
-            <li class="course-results-item">
-              <h3>Удостоверение</h3>
-              <p>
+        <div class="course-results__wrapper">
+          <h2 class="course-results__title">Что вы получите после курса</h2>
+          <ul class="course-results__list">
+            <li class="course-results__item">
+              <h3 class="course-results__item-title">Удостоверение</h3>
+              <p class="course-results__item-description">
                 Дающее право преподавать робототехнику для детей 6-12 лет в
                 образовательных учреждениях
               </p>
             </li>
-            <li class="course-results-item">
-              <h3>Знания</h3>
-              <p>
+            <li class="course-results__item">
+              <h3 class="course-results__item-title">Знания</h3>
+              <p class="course-results__item-description">
                 По основам разработки учебно-методических комплексов по
                 робототехнике и программированию
               </p>
             </li>
-            <li class="course-results-item">
-              <h3>Удостоверение <sup>i</sup></h3>
-              <p>
+            <li class="course-results__item">
+              <h3 class="course-results__item-title">
+                Удостоверение <sup>i</sup>
+              </h3>
+              <p class="course-results__item-description">
                 Возможность пройти практику по преподаванию робототехники на
                 базе R:ED LAB (в оффлайн или онлайн формате)
               </p>
@@ -104,148 +124,174 @@
         </div>
       </section>
       <section class="trainers">
-        <h2>Профессиональные тренеры</h2>
-        <ul class="trainers-list">
-          <li class="trainers-item">
-            <img
-              src="img/teacher-Irina-Lime.jpg"
-              width="360"
-              height="500"
-              alt="Фотография преподавателя Ирина Лайм"
-            />
-            <p>Ирина Лайм</p>
-            <p>преподаватель по робототехнике</p>
-            <p><a href="">Подробнее</a></p>
-          </li>
-          <li class="trainers-item">
-            <img
-              src="img/teacher-Marina-Orlova.jpg"
-              width="360"
-              height="500"
-              alt="Фотография преподавателя Марина Орлова"
-            />
-            <p>Марина Орлова</p>
-            <p>преподаватель по робототехнике</p>
-            <p><a href="">Подробнее</a></p>
-          </li>
-          <li class="trainers-item">
-            <img
-              src="img/teacher-Maksim-Petrov.jpg"
-              width="360"
-              height="500"
-              alt="Фотография преподавателя Максим Петров"
-            />
-            <p>Максим Петров</p>
-            <p>преподаватель по программированию</p>
-            <p><a href="">Подробнее</a></p>
-          </li>
-          <li class="trainers-item">
-            <img
-              src="img/teacher-Konstantin-Nazarov.jpg"
-              width="360"
-              height="500"
-              alt="Фотография преподавателя Константин Назаров"
-            />
-            <p>Константин Назаров</p>
-            <p>преподаватель по робототехнике</p>
-            <p><a href="">Подробнее</a></p>
-          </li>
+        <div class="trainers__wrapper">
+          <h2 class="trainers__title">Профессиональные тренеры</h2>
+          <ul class="trainers__list">
+            <li class="trainers__item">
+              <img
+                class="trainers__photo"
+                src="img/teacher-Irina-Lime.jpg"
+                width="360"
+                height="500"
+                alt="Фотография преподавателя Ирина Лайм"
+              />
+              <p class="trainers__name">Ирина Лайм</p>
+              <p class="trainers__profession">преподаватель по робототехнике</p>
+              <a class="trainers__link" href="">Подробнее</a>
+            </li>
+            <li class="trainers__item">
+              <img
+                class="trainers__photo"
+                src="img/teacher-Marina-Orlova.jpg"
+                width="360"
+                height="500"
+                alt="Фотография преподавателя Марина Орлова"
+              />
+              <p class="trainers__name">Марина Орлова</p>
+              <p class="trainers__profession">преподаватель по робототехнике</p>
+              <a class="trainers__link" href="">Подробнее</a>
+            </li>
+            <li class="trainers__item">
+              <img
+                class="trainers__photo"
+                src="img/teacher-Maksim-Petrov.jpg"
+                width="360"
+                height="500"
+                alt="Фотография преподавателя Максим Петров"
+              />
+              <p class="trainers__name">Максим Петров</p>
+              <p class="trainers__profession">
+                преподаватель по программированию
+              </p>
+              <a class="trainers__link" href="">Подробнее</a>
+            </li>
+            <li class="trainers__item">
+              <img
+                class="trainers__photo"
+                src="img/teacher-Konstantin-Nazarov.jpg"
+                width="360"
+                height="500"
+                alt="Фотография преподавателя Константин Назаров"
+              />
+              <p class="trainers__name">Константин Назаров</p>
+              <p class="trainers__profession">преподаватель по робототехнике</p>
+              <a class="trainers__link" href="">Подробнее</a>
+            </li>
 
-          <li class="trainers-item">
+            <li class="trainers__item">
+              <img
+                class="trainers__photo"
+                src="img/teacher-Liza-Vesennyia.jpg"
+                width="360"
+                height="500"
+                alt="Фотография преподавателя Лиза Весенняя"
+              />
+              <p class="trainers__name">Лиза Весенняя</p>
+              <p class="trainers__profession">преподаватель по робототехнике</p>
+              <a class="trainers__link" href="">Подробнее</a>
+            </li>
+          </ul>
+          <div class="trainers__arrows-wrapper">
             <img
-              src="img/teacher-Liza-Vesennyia.jpg"
-              width="360"
-              height="500"
-              alt="Фотография преподавателя Лиза Весенняя"
+              class="trainers__arrow-left"
+              src="img/Arrow - Right Circle.svg"
+              alt="стрелка налево, предыдущий преподаватель"
             />
-            <p>Лиза Весенняя</p>
-            <p>преподаватель по робототехнике</p>
-            <p><a href="">Подробнее</a></p>
-          </li>
-        </ul>
-        <div class="wrapper-arrows">
-          <img
-            src="img/Arrow - Right Circle.svg"
-            alt="стрелка налево, предыдущий преподаватель"
-          />
-          <img
-            src="img/Arrow - Right Circle.svg"
-            alt="стрелка направо, предыдущий преподаватель"
-          />
+            <img
+              class="trainers__arrow-right"
+              src="img/Arrow - Right Circle.svg"
+              alt="стрелка направо, следующий преподаватель"
+            />
+          </div>
         </div>
       </section>
       <section class="select-price">
-        <h2>Выберите нужный пакет</h2>
-        <ul class="select-price-list">
-          <li class="select-price-item event-hover">
-            <h3>PRO</h3>
-            <p><strong>20.000 &#8381;</strong></p>
-            <p>
+        <h2 class="select-price__title">Выберите нужный пакет</h2>
+        <ul class="select-price__list">
+          <li class="select-price__item">
+            <h3 class="select-price__item-title">PRO</h3>
+            <p class="select-price__item-price">20.000 &#8381;</p>
+            <p class="select-price__item-description">
               УМК по робототетхнике<br />
               и программированию
             </p>
-            <p><a href="#">Оставить заявку</a></p>
+            <p class="select-price__item-link">
+              <a class="select-price__link" href="#">Оставить заявку</a>
+            </p>
           </li>
-          <li class="select-price-item">
-            <h3>ROBO</h3>
-            <p><strong>15.000 &#8381;</strong></p>
-            <p>УМК по робототетхнике</p>
-            <p><a href="#">Оставить заявку</a></p>
+          <li class="select-price__item">
+            <h3 class="select-price__item-title">ROBO</h3>
+            <p class="select-price__item-price">15.000 &#8381;</p>
+            <p class="select-price__item-description">УМК по робототетхнике</p>
+            <p class="select-price__item-link">
+              <a class="select-price__link" href="#">Оставить заявку</a>
+            </p>
           </li>
-          <li class="select-price-item">
-            <h3>PROG</h3>
-            <p><strong>10.000 &#8381;</strong></p>
-            <p>УМК по программированию</p>
-            <p><a href="#">Оставить заявку</a></p>
+          <li class="select-price__item">
+            <h3 class="select-price__item-title">PROG</h3>
+            <p class="select-price__item-price">10.000 &#8381;</p>
+            <p class="select-price__item-description">
+              УМК по программированию
+            </p>
+
+            <p class="select-price__item-link">
+              <a class="select-price__link" href="#">Оставить заявку</a>
+            </p>
           </li>
         </ul>
       </section>
       <section class="special-offer">
-        <div class="wrapper-parts-offer">
-          <div class="left-part-offer">
-            <h2>
+        <div class="special-offer__wrapper">
+          <div class="special-offer__left-part">
+            <h2 class="special-offer__title">
               Запишитесь на курс<br />
               co скидкой 10%
             </h2>
-            <p>Акция действительна до 10 марта 2022 года</p>
+            <p class="special-offer__description">
+              Акция действительна до 10 марта 2022 года
+            </p>
           </div>
-          <form class="offer-form" action="" method="">
-            <label for="name"></label>
+          <form class="special-offer__form" action="" method="">
             <input
+              class="special-offer__input"
               type="text"
               id="name"
               name="name"
               placeholder="Имя"
               required
             />
-            <label for="phone"></label>
             <input
+              class="special-offer__input"
               type="tel"
               id="phone"
               name="phone"
               placeholder="Телефон"
               required
             />
-            <label for="email"></label>
             <input
+              class="special-offer__input"
               type="email"
               id="email"
               name="email"
               placeholder="E-mail"
               required
             />
-            <button type="submit">Оформить заявку</button>
+            <button class="special-offer__button" type="submit">
+              Оформить заявку
+            </button>
           </form>
         </div>
       </section>
     </main>
-    <footer class="main-footer">
-      <div class="wrapper-footer">
-        <div class="left-part-footer">
-          <p class="logo"><strong>ROBO.SCHOOL</strong></p>
-          <p>&copy; ROBO.SCHOOL</p>
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <div class="footer__left-part">
+          <p class="footer__logo"><strong>ROBO.SCHOOL</strong></p>
+          <p class="footer__copyright">&copy; ROBO.SCHOOL</p>
         </div>
-        <p><a href="tel:+78000001122">+7 800 000 11 22</a></p>
+        <p class="footer__phone-wrapper">
+          <a class="footer__phone" href="tel:+78000001122">+7 800 000 11 22</a>
+        </p>
       </div>
     </footer>
   </body>

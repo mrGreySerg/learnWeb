@@ -1,0 +1,40 @@
+.footer {
+  background-color: #141024;
+  color: #fff;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 1720px;
+  margin: 0 auto;
+}
+
+.footer__left-part {
+  padding: 40px 0;
+}
+
+.footer__logo {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 5px;
+}
+
+.footer__copyright {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+}
+
+.footer__phone {
+  color: #fff;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+.footer__phone-wrapper {
+  padding-top: 40px;
+}

@@ -1,0 +1,60 @@
+.trainers {
+  width: 1920px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+  overflow: hidden;
+}
+
+.trainers__wrapper {
+  margin-left: 380px;
+}
+
+.trainers__title {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 80px;
+  margin-bottom: 60px;
+}
+
+.trainers__list {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.trainers__item {
+  width: 360px;
+}
+
+.trainers__photo {
+  border-radius: 20px;
+}
+
+.trainers__name {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 38.4px;
+  margin-bottom: 10px;
+}
+
+.trainers__profession {
+  margin-bottom: 20px;
+}
+
+.trainers__link {
+  color: #d52027;
+  text-decoration: none;
+}
+
+.trainers__arrows-wrapper {
+  text-align: center;
+  padding-left: 700px;
+}
+
+.trainers__arrow-left {
+  margin-right: 10px;
+}
+
+.trainers__arrow-right {
+  transform: rotate(180deg);
+}

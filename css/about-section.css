@@ -1,0 +1,32 @@
+.about {
+  width: 1160px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+.about__description {
+  margin-bottom: 60px;
+  font-size: 30px;
+  line-height: 160%;
+}
+
+.about__title {
+  font-weight: 600;
+}
+
+.about__number {
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 112px;
+  color: #d52027;
+  line-height: 160%;
+}
+
+.about__list {
+  display: flex;
+  gap: 40px;
+}
+
+.about__item {
+  width: 260px;
+}
